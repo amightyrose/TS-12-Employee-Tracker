@@ -4,6 +4,7 @@
   "description": "A command line utility for managing employee information. Runs on node/MySQL.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
