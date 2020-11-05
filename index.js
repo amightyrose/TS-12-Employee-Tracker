@@ -1,5 +1,8 @@
-// Import packages.
+// Import stuff.
 const mysql = require("mysql");
+const { showSplashScreen } = require("./lib/consoleMessages");
+const promptMainMenu = require("./lib/mainMenu");
+
 
 // Create MySQL connection.
 const connection = mysql.createConnection(
@@ -20,17 +23,39 @@ connection.connect(function (err) {
 });
 
 
+// Start the main routine.
+async function init() {
 
-const init = () => {
+	showSplashScreen();
 
-	connection.query(
-		"SELECT * FROM employee",
-		function (err, response) {
-			console.log(response);
-		}
-	)
+	const mainMenuChoice = await promptMainMenu();
 
-
+	switch (mainMenuChoice) {
+		case "viewemployees":
+			await viewEmployees();
+			break;
+		case "viewroles":
+			await viewRoles();
+			break;
+		case "viewdepartments":
+			await viewDepartments();
+			break;
+		case "addemployee":
+			await addEmployee();
+			break;
+		case "addrole":
+			await addRole();
+			break;
+		case "adddepartment":
+			await addDepartment();
+			break;
+		case "updateemployee":
+			await updateEmployee();
+			break;
+		default:
+			break;
+	}
 
 	connection.end();
+
 }
