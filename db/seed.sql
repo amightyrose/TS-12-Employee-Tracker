@@ -3,7 +3,7 @@ VALUES ("Admin"), ("Logistics"), ("IT"), ("Sales");
 
 INSERT INTO role (title, salary, department_id)
 VALUES ("Receptionist", 45000, 1),
-("Office Manager", 6000, 1),
+("Office Manager", 60000, 1),
 ("Warehouse Manager", 65000, 2),
 ("Storeperson", 42000, 2),
 ("Courier Driver", 38000, 2),
