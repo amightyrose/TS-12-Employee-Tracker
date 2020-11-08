@@ -1,4 +1,4 @@
-const { writeLogo } = require("./lib/headers");
+const { writeLogo } = require("./lib/renderHeaders");
 const mainMenu = require("./lib/mainMenu");
 
 
