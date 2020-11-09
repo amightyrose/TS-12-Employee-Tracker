@@ -38,7 +38,7 @@ To install Employee Tracker:
 ### Walkthrough Video
 Watch this walkthrough video to see some of the operations in progress.
 
-[Walkthrough Video](https://drive.google.com/file/d/1IHORJcNeTiaJun1hCk8MyQC4Tx92B6N3/view)
+[Walkthrough Video](https://drive.google.com/file/d/1mKkFl97dX8ujiX7W29bdemZ4CkxAEOTd/view)
 
 
 ## Screenshots
