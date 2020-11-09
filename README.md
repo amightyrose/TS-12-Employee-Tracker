@@ -30,15 +30,15 @@ To install Employee Tracker:
 
 ## Usage
 
-### Walkthrough Video
-Watch this walkthrough video to see some of the operations in progress.
-
-[Walkthrough Video]()
-
 ### Instructions
 1. Open a terminal window and navigate to the application directory.
 2. Run 'npm start' and press Enter to continue.
 3. Follow the application prompts.
+
+### Walkthrough Video
+Watch this walkthrough video to see some of the operations in progress.
+
+[Walkthrough Video](https://drive.google.com/file/d/1IHORJcNeTiaJun1hCk8MyQC4Tx92B6N3/view)
 
 
 ## Screenshots
