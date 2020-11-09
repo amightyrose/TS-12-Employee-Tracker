@@ -1,7 +1,7 @@
 # Employee Tracker
 
 
-![et-startscreen](https://user-images.githubusercontent.com/69242373/98526519-92b26a80-22c5-11eb-8b27-36dc67a95ff0.png)
+![et-startscreen](https://user-images.githubusercontent.com/69242373/98528605-43ba0480-22c8-11eb-9cef-21f6fae62bb6.png)
 
 
 ## Description
